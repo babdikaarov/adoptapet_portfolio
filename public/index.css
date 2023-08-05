@@ -1,3 +1,51 @@
+#root {
+  display: flex;
+  flex-direction: column;
+}
+
+.welcome {
+  border-radius: 3rem;
+  border: 25px solid #56009b;
+  margin: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-self: center;
+  max-width: 50rem;
+}
+
+.text-context {
+  padding: 2rem;
+}
+
+.text ul {
+  list-style: inside;
+}
+
+.text * {
+  line-height: 10px;
+}
+
+.welcome-reference {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  padding-bottom: 3rem;
+}
+
+
+
+
+.welcome-reference * :hover {
+  cursor: pointer;
+}
+
+
+
+/*  */
+
+
 .nav-logo {
   display: flex;
   align-items: center;

@@ -1,7 +1,7 @@
 .custom-svg {
     height: 3rem;
 
-    fill: #31A574;
+    fill: #56009b;
     /* Set the fill color to red */
 }
 
@@ -10,5 +10,5 @@
 }
 
 .custom-svg:active {
-    fill: #6D2ED4;
+    fill: #320059;
 }
